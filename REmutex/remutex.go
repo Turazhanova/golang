@@ -13,6 +13,7 @@ var (
 
 func init() {
 	data = make(map[string]string)
+	print("hi")
 }
 
 func readData(key string) string {
